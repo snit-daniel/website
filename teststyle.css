@@ -1,0 +1,20 @@
+#guest_name{
+    width:200px;
+}
+
+.navbar{
+    background-color:darkblue;
+}
+.logo {
+    width: 50px;
+}
+.blue{
+
+    background-color: darkblue;
+color: white;
+cursor: pointer;}
+.white{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}

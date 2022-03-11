@@ -1,0 +1,90 @@
+ <html>
+     <head>
+         <title> Buy a ticket</title>
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+     </head>
+     
+   <body>
+        
+                 <div class="container-fluid" id="nav">
+
+       <div class="hbri"> 
+           
+           
+               
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="my_website.html">
+    <img class="logo" src="logo.jpg" alt="logo" width="90">
+  </a>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a id="firststyle" class="nav-link" href="my_website.html">WeCare Assistant App </a>
+    </li>
+  
+               </ul>
+  
+           </div>
+           
+    
+       
+   <div class="btn-group" role="group" aria-label="Button group with nested dropdown" >
+ <button class="btn" ><a class="fa fa-home" target="_blank" href="my_website.html" style="color: white;">Home</a></button>
+<a class="btn btn-info"  target="_blank" href="what_is_smart_ticketing.html" role="button"> </i>  &#10068   What does the application do </a>    
+       
+     <a class="btn btn-info" target="_blank" href="buy_a_ticket.html" role="button" > <i class="fa fa-download"></i> Calculate price to download </a>
+     <a class="btn btn-info" target="_blank" href="contact_us.html"role="button" > <i class="fa fa-fw fa-envelope"></i>Contact us</a>
+     <a class="btn btn-info" target="_blank" href="log_in.html" role="button" > <i class="fa fa-fw fa-user"></i> Log in</a>
+       
+          
+       </div>
+    
+   
+           </div>
+      <div align="right" style="position: absolute; top:110px; right: 30px;">
+     <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button  type="submit"><i class="fa fa-search" style="font-size: 25px;"> </i> </button>
+    </form>    
+        </div>
+         <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="my_website.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Calculate price to download</li>
+  </ol>
+</nav>  
+         <br>
+         <br>
+         
+     <h1 style="font: italic Cursive, serif;   color:slateblue;
+                 text-shadow: 3px 3px 3px orange;
+                font-size: 37px;  "> <b> Calculate price to download </b></h1> <br>
+     
+         <div class="form">
+         <form onsubmit= "return calc_ticket_price();">
+        <label> For how many devices do you want to download the app? </label>
+        <input type="number" id="tickets">
+        <br>
+        <label>What is the payment method you prefer to use? </label>
+        <select id="type">
+            <option value="credit card">Credit/debit card</option>
+            <option value="Bus">Redeem code</option>
+            
+        </select>
+            <br>
+            
+            <button> Calculate price to download </button>
+            
+            <p id="result"> </p>
+          </form>
+        </div>
+    </body>
+</html>

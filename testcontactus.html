@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact us Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>        
+        <script src="testscrip.js" type="text/javascript"></script>
+        <link href="teststyle.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body onload="init(); showw_name();">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+             <a class="navbar-brand" > <img class="logo" src="sofa.png"> </a>
+            <a class="navbar-brand" href="#">Your Furniture</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Location</a>
+                    </li>
+                </ul>
+                    <input id="guest_name" class="form-control mr-sm-2" placeholder="type your name" >
+                    <button onclick='show_name();' class="btn btn-light my-2 my-sm-0">Go</button>
+            </div>
+        </nav>
+        <div class="container">
+        <div class="row" >
+        
+            <div class="col-sm-6">
+       <h1>  Welcome guest</h1>
+        <p> here you can find best furiture in the world! </p>
+                <span class="white" onclick="light_theme();">L</span> <span class="blue" onclick="dark_theme();">D</span>
+        </div>
+              <div class="col-sm-6"> 
+                  <img src="overview.jpeg">
+                  </div>
+            </div>
+            </div> 
+ 
+        <p2> Contact us</p2>
+        <br>
+        <form>
+        <label for="name"> name:</label> <br>
+        <input type="text" placeholder="enter name" id="name" required> <br>
+            <div class="valid-feedback"> good</div>
+            <div class="invalid-feedback" id="name-feedback"> bad</div>
+            
+        <label for="budget"> budget:</label> <br>
+        <input type="text" placeholder="enter your budget" id="budget" required> <br> <br>
+            <div class="valid-feedback"> good</div>
+            <div class="invalid-feedback" id="budget-feedback"> bad</div>
+        <button type="submit" class="btn btn-primary" onclick="validate();"> submit</button>
+       
+        </form>
+        
+    </body>
+</html>

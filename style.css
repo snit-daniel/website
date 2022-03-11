@@ -1,0 +1,148 @@
+            body{
+                margin-left: 15px; 
+                margin-right: 15px;
+                background-color:papayawhip;
+                }
+           .logo{ position: absolute;
+    top:2%;
+    left: 6%;
+                transition:1s;
+                transform:  perspective(400px) rotateY( 40deg );}
+
+           .logo:hover{
+                     transform: rotateY( 0deg );
+                     cursor:pointer;
+                      width:80px;}
+            
+            #nav{
+                width: 100%;
+                
+                }
+           
+            #firststyle{font-size:55px; 
+                        font-weight:300;
+                        color: #fff3d5;
+                        text-shadow: 5px -4px 3px #85ee00;
+                        font-family: serif;
+/*                        text-indent: 90px;*/
+                     position: relative;
+                     top:10%;
+                  left:150px;}
+
+            #top {vertical-align: top;}
+           
+            #secondstyle {position: relative; 
+                          left: 20px; 
+                          vertical-align: top;
+                          transition: width 1s;}
+             #secondstyle:hover{
+                 width:500px;}
+
+            h1  {font: italic bold 30px Cursive, serif; 
+                text-indent: 50px;}
+            
+            #list{ vertical-align: top;
+                   font-size: 20px; 
+                   padding:100px;
+                }
+            
+            .types{
+                color:slateblue;
+                 text-shadow: 1px 1px 4px blue;
+                font-size: 40px; 
+                text-align: center;
+                font-family:serif;
+                
+            }
+           
+            #thirdstyle{text-align: center; 
+                       font-weight: bold; 
+                       font-size: 20px; 
+                       color:slateblue;
+            }
+           .btn btn-info:hover {
+                      background-color: blanchedalmond;}
+            .btn {
+                   background-color: mediumpurple;
+                   border: none;
+                   color: white;
+                   padding: 12px 16px;
+                   font-size: 16px;
+                    cursor: pointer;
+                 }
+           .btn:hover {
+                     background-color:burlywood;}
+
+           .hbri{
+                     background-color: rgb(105 121 238 / 63%); }
+           .topic{
+                   font: italic 37px Cursive, serif;
+                   text-align: center;
+                   padding: 10px;
+                   margin: 1px;
+                  color:slateblue;
+                 text-shadow: 3px 3px 3px orange;
+                 }   
+            p3{
+            font-size: 20px;
+              }
+            .how{font-size: 20px;}
+            .contactus{text-align: center;
+                       font-family:  Cursive, serif;
+                        color:slateblue;
+                 text-shadow: 3px 3px 3px orange;
+                font-size: 37px;
+                       
+                      }
+            .znqesaqes{
+                transition:1s;
+                transform:  perspective(300px) rotateY( 30deg );}
+
+           .znqesaqes:hover{
+                     transform: rotateY( 0deg );
+                     cursor:pointer;
+                      width:180px;}
+          .breadcrumb{ width: 98%;
+              margin-left: 10px;
+              
+    
+ }        
+           .describtion{
+                 position: absolute; right: 350px;  
+               font:  30px serif;
+               text-shadow: 4px 2px 5px pink;
+              }
+.class{position: absolute; left: 160px; font-size: 38px;}
+.class2{position: absolute; left: 560px; font-size: 38px;}
+.class3{position: absolute; left: 950px; font-size: 38px;
+    
+}
+.class4{
+    position: absolute; left: 95px;
+}
+.class5{position: absolute; left: 510px;
+}
+.class6{
+    position: absolute; left: 890px;
+}
+.class7{position: absolute; left: 80px; 
+              font: italic 25px serif; color: slateblue; 
+              text-shadow: 1px 1px 4px salmon;}
+.class8{
+    position: absolute; left: 430px; font: italic 25px serif; color: slateblue; text-shadow: 1px 1px 4px salmon
+}
+img.flags{
+    height: 35px;
+    width: 70px;}
+tr.titles {
+            font: italic 30px serif;
+            font-size: 32px;
+            text-shadow: 4px 2px 5px pink;}
+tbody.bodyy {font-size: 20px;
+
+            text-shadow: 2px 2px 4px skyblue;}
+ul.zrzr  {font-size: 20px;}
+div.left{
+    position: absolute;
+    right: 10px;
+}
